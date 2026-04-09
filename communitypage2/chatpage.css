@@ -1,0 +1,132 @@
+ #myLayout {
+     background-color: white;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ #rb_postLayout {
+     display: flex;
+     height: 2800px;
+ }
+
+ #rb_left {
+     width: 450px;
+ }
+
+ #rb_right {
+     /* width: 1000px; */
+     margin-top: 20px;
+     display: flex;
+     flex-direction: column;
+ }
+
+ #posting {
+     width: 70px;
+     height: 30px;
+     border: 0.5px solid black;
+     border-radius: 10px;
+     float: right;
+     font-size: 18px;
+     font-weight: 500;
+ }
+
+ #posts {
+     margin-top: 10px;
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+ }
+
+
+
+ .rb_post {
+     width: 750px;
+     height: 600px;
+     background-color: rgb(255, 255, 255);
+     border-top: 1px solid grey;
+     /* border-bottom: 1px solid gray; */
+     /* margin: 40px 0px 0px 270px; */
+ }
+
+ .post_profile {
+     display: flex;
+     align-items: center;
+     gap: 12px;
+     margin-left: 10px;
+     /* margin: 10px 0px 0px 10px; */
+     font-size: 14px;
+     text-decoration: none;
+ }
+
+ .profile_image {
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     border: 1px solid black;
+ }
+
+ .p_writer {
+     color: black;
+     font-size: 15px;
+     font-weight: 400;
+     margin-right: 5px;
+ }
+
+ .p_date {
+     font-size: 13px;
+     padding-top: 2px;
+ }
+
+ .p_b {
+     width: 60px;
+     height: 25px;
+     border-radius: 15px;
+     background-color: navy;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-left: 420px;
+ }
+
+ .p_title {
+     font-size: 17px;
+     font-weight: 600;
+     color: black;
+     margin: 15px 0px 0px 10px;
+     text-decoration: none;
+ }
+
+ .p_image {
+     margin-top: 20px;
+     width: 700px;
+     height: 450px;
+     border-radius: 30px;
+ }
+
+ .react {
+     display: flex;
+     height: 30px;
+ }
+
+ .re {
+     all: unset;
+     appearance: none;
+     cursor: pointer;
+     width: 50px;
+     height: 25px;
+     border-radius: 20px;
+     border: 1px solid black;
+     font-size: 13px;
+     font-weight: 400;
+     color: black;
+     margin: 10px 0px 0px 10px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .re_img {
+     width: 20px;
+     height: 20px;
+ }
