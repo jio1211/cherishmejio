@@ -1,0 +1,231 @@
+#my_layout {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#th_layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+#th_header {
+  display: flex;
+  justify-content: center;
+}
+
+/* 검색창 */
+#search_container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 400px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#search_box {
+  flex: 1;
+  padding: 12px 16px;
+  border: 0px solid #ccc;
+  border-right: none;
+  /* 버튼과 경계선 겹치지 않게 */
+  border-radius: 25px 0 0 25px;
+  /* 왼쪽만 둥글게 */
+  font-size: 17px;
+  background-color: #f5f5f5;
+  outline: none;
+  height: 30px;
+}
+
+#search_button {
+  /* border: 1px solid #ccc; */
+  height: 54px;
+  background-color: #f5f5f5;
+  color: #333;
+  border: 0px solid #ccc;
+  border-left: none;
+  border-radius: 0 25px 25px 0;
+  /* 오른쪽만 둥글게 */
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+#search_img {
+  height: 20px;
+  width: 20px;
+}
+
+/* ticket home 사진~ 본문 컨텐츠 영역 */
+#th_body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#th_body1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(244, 244, 244);
+  width: 100%;
+}
+
+#th_body1_container {
+  display: flex;
+  width: 70%;
+}
+
+/* #main_inform_inform {
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+}
+
+#main_inform_title {
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: 500;
+  color: black;
+}
+
+#main_inform_date {
+  margin-top: 50px;
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+} */
+
+#th_main_poster {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 400px;
+}
+
+#th_poster_img {
+  width: 80%;
+  height: 400px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.th_perform_list {
+  width: 85%;
+  background-color: transparent !important;
+  height: 400px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.th_grey_container {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* 리스트 제목 영역 레이아웃*/
+.list_title {
+  background-color: transparent;
+  display: flex;
+  align-items: flex-end;
+}
+
+.list_name {
+  background-color: transparent;
+  font-size: 27px;
+  font-style: normal;
+  color: black;
+  font-weight: 600;
+}
+
+/* 전체보기 */
+.show_all {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  /* margin-left:auto;
+  padding-right:200px; */
+  padding-left: 20px;
+
+}
+
+.perform_layout {
+  margin-top: 20px;
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: repeat(5, 240px);
+  height: 350px;
+  gap: 15px;
+  overflow: hidden;
+}
+
+.perform_container {
+  display: flex;
+  background-color: transparent !important;
+  flex-direction: column;
+  width: 250px;
+  margin: 20px 0px 0px 0px;
+}
+
+.img {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  /* 세로 방향으로 쌓기 */
+  width: 220px;
+  height: 260px;
+  border-radius: 15px;
+}
+
+.title {
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  width: 200px;
+  margin: 30px 0px 7px 5px;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 지역 키 */
+#region_list {
+  margin-top: 40px;
+  margin-right: auto;
+}
+
+.region_button {
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  /* border-top: 0;                
+  border-bottom: 0;             
+  border-left: 0.5px solid gray; 
+  border-right: 0.5px solid gray; */
+  border: 1px solid gray;
+  border-radius: 15px;
+  ;
+  width: 65px;
+  height: 33px;
+  /* gap:5px; */
+  cursor: pointer;
+  margin-right: 8px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.region_button.active {
+  background-color: rgb(87, 87, 87);
+  color: white;
+}
