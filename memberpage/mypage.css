@@ -1,0 +1,266 @@
+ #myLayout {
+   background-color: rgb(255, 255, 255);
+   margin: 0;
+   padding: 0;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+ }
+
+ #my_top {
+   background-color: rgb(255, 255, 255);
+   width: 100%;
+   height: 20px;
+ }
+
+ /* #m_title {
+   width: 600px;
+   height: 80px;
+   font-size: 30px;
+   font-weight: 500;
+ }
+
+ #title_layout {
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   height: 80px;
+   padding-top: 33px;
+ } */
+
+ #my_mid {
+   display: flex;
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ /* 좌측 내 정보 및 카테고리 영역 */
+ #my_mid_left {
+   margin-top: 40px;
+   margin-left: 70px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 300px;
+ }
+
+ #m_info_container {
+   height: 150px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+ }
+
+
+
+ #info_name {
+   padding-top: 50px;
+   font-size: 28px;
+   font-weight: 600;
+   padding-bottom: 10px;
+ }
+
+
+
+ #info_right {
+   margin-left: 20px;
+   padding-top: 70px;
+
+ }
+
+
+ /* 우측 나의 활동 표현 영역 */
+ #my_mid_right {
+   margin-top: 80px;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+ }
+
+ #favorite_container {
+   width: 85%;
+   height: 700px;
+   display: flex;
+   gap: 20px;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .my_container_name {
+   font-size: 20px;
+   font-weight: 600;
+   height: 40px;
+   border-bottom: 3px solid black;
+ }
+
+
+ #favorite_list {
+   margin-top: 20px;
+   display: grid;
+   /* 4열 */
+   grid-template-columns: repeat(4, 1fr);
+   /* 2행 */
+   grid-template-rows: repeat(2, auto);
+   gap: 15px;
+ }
+
+ .favorite_box {
+   width: 200px;
+   height: 300px;
+   /* display: flex; */
+   gap: 20px;
+ }
+
+ .favorite_poster {
+   /* border: 0.7px solid grey; */
+   width: 150px;
+   align-items: center;
+   justify-items: center;
+   padding-bottom: 10px;
+ }
+
+ .favorite_poster_img {
+   align-items: center;
+   justify-items: center;
+   width: 180px;
+   height: 230px;
+ }
+
+ .favorite_contents {
+   width: 180px;
+   height: 57px;
+ }
+
+ .favorite_title {
+   margin-top: 3px;
+   font-size: 16px;
+   font-weight: 600;
+   margin-bottom: 10px;
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+   width: 170px;
+ }
+
+ .favorite_run_date {
+   font-size: 14px;
+ }
+
+ #post_container {
+   width: 85%;
+   height: 700px;
+   gap: 20px;
+   display: flex;
+   flex-direction: column;
+ }
+
+ #post_container_name {
+   font-size: 20px;
+   font-weight: 600;
+   height: 40px;
+   border-bottom: 3px solid black;
+   padding-top: 100px;
+
+ }
+
+ #post_title_layout {
+   display: flex;
+   border-bottom: 1.5px solid black;
+   height: 25px;
+ }
+
+ .my_post_mid {
+   border-bottom: 1px solid darkgray;
+   height: 35px;
+   display: flex;
+ }
+
+ .my_post {
+   display: flex;
+ }
+
+ #post_top_date {
+   padding-left: 7px;
+   font-size: 15px;
+   font-weight: 600;
+   width: 150px;
+   margin-right: 15px;
+ }
+
+ #post_top_title {
+   font-size: 15px;
+   font-weight: 600;
+   width: 200px;
+   margin-right: 15px;
+
+ }
+
+ #post_top_content {
+   font-size: 15px;
+   font-weight: 600;
+   width: 150px;
+
+ }
+
+ .my_post_date {
+   width: 150px;
+   font-size: 17px;
+   font-weight: 450;
+
+ }
+
+ .my_post_title {
+   width: 200px;
+   font-size: 17px;
+   font-weight: 450;
+   margin-right: 35px;
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+ }
+
+ .my_post_content {
+   width: 500px;
+   font-size: 17px;
+   font-weight: 450;
+   overflow: hidden;
+   white-space: nowrap;
+ }
+
+ #reply_container {
+   width: 600px;
+   height: 200px;
+   /* display: flex; */
+   gap: 20px;
+
+ }
+
+
+ #reply_name {
+   font-size: 20px;
+   font-weight: 500;
+   padding-top: 20px;
+   padding-bottom: 10px;
+ }
+
+ #m_reply {
+   display: flex;
+   padding-top: 4px;
+ }
+
+ #reply_origin {
+   width: 250px;
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+ }
+
+ #reply_content {
+   width: 350px;
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+ }
